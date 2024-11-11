@@ -15,11 +15,11 @@ Add the plugin to your page, just before the `</body>` tag.
 Create the container for the RSS feed to show in, and pass options in via `data` attributes.
 
 ```html
-<div 
-    data-rss-feed="http://binonabin.tumblr.com/rss" 
-    data-rss-link-titles="false" 
+<div> 
+    data-rss-feed="https://adanews.ada.org/ada-news/rss" 
+    data-rss-link-titles="true" 
     data-rss-title-wrapper="h3" 
-    data-rss-max="5">
+    data-rss-max="6">
 </div>
 ```
 
